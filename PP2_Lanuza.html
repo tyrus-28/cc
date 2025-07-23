@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Page</title>
+  <style>
+    body {
+      background-color: #1C1C1C;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      padding: 50px;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    h1 {
+      text-align: center;
+      color: #660000;
+      animation: slideDown 1s ease-out;
+    }
+
+    .content {
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 1.6;
+      animation: fadeInUp 1.2s ease-in;
+    }
+
+    .content img {
+      border-radius: 50%;
+      margin-bottom: 20px;
+      width: 200px;
+      animation: zoomIn 1.2s ease-in;
+    }
+
+    .btn {
+      margin: 10px;
+      padding: 10px 20px;
+      background: #911924;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      transition: transform 0.3s ease, background 0.3s ease;
+      animation: fadeIn 2s ease;
+    }
+
+    .btn:hover {
+      background: #780A12;
+      transform: scale(1.05);
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 30px;
+      animation: fadeIn 2s ease-in;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes zoomIn {
+      0% {
+        opacity: 0;
+        transform: scale(0.7);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>MY PROFILE</h1>
+  <div class="content">
+    <img src="pol.jpg" alt="Paul Rusty Lanuza">
+    <p><strong>Full Name:</strong> Paul Rusty Lanuza</p>
+    <p><strong>Age:</strong> 20 years old</p>
+    <p><strong>Date of Birth:</strong> April 28, 2005</p>
+
+    <p><strong>Educational Background:</strong><br>
+    - Currently a 2nd Year College Student<br>
+    - Bachelor of Science in Information Technology (BSIT)</p>
+
+    <p><strong>Interests:</strong><br>
+    - Sports<br>
+    - Outdoor Adventures</p>
+
+    <p><strong>Contact Information:</strong><br>
+    - Phone Number: 09955029529<br>
+    - Email Address: paullanuza0428@gmail.com</p>
+  </div>
+
+  <div class="button-container">
+    <a href="PP1_Lanuza.html" class="btn">Back to Homepage</a>
+    <a href="PP3_Lanuza.html" class="btn">Go to Autobiography</a>
+  </div>
+</body>
+</html>

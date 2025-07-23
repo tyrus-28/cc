@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Autobiography</title>
+  <style>
+    body {
+      background-color: #1C1C1C;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    h1 {
+      color: #660000;
+      animation: slideDown 1s ease-out;
+    }
+
+    p {
+      max-width: 700px;
+      margin: 20px auto;
+      line-height: 1.6;
+      font-size: 18px;
+      animation: fadeInUp 1.5s ease-in;
+    }
+
+    .btn {
+      margin: 10px;
+      padding: 10px 20px;
+      background: #911924;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      transition: transform 0.3s ease, background 0.3s ease;
+      animation: fadeIn 2s ease;
+    }
+
+    .btn:hover {
+      background: #780A12;
+      transform: scale(1.05);
+    }
+
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>MY AUTOBIOGRAPHY</h1>
+  
+  <p>Hello there! If you haven’t checked out my profile yet, here’s a quick intro about me.</p>
+
+  <p>My name is Paul Rusty Lanuza... but just call me Paul. I’m 20 years old and a huge fan of sports, especially basketball. Whether I’m playing with friends or just shooting hoops alone, it’s something I really enjoy.</p>
+
+  <p>There’s nothing too fancy about me. I just believe in making the most out of life and having fun while I can.</p>
+
+  <a href="PP1_Lanuza.html" class="btn">Back to Homepage</a>
+  <a href="PP2_Lanuza.html" class="btn">Go to Profile</a>
+</body>
+</html>
